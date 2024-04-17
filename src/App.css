@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+@keyframes spin {
+  0% {
+    width: 130px;
+  }
+  25% {
+    width: 130px;
+    transform: rotate(0deg);
+  }
+  50% {
+    width: 50px;
+    transform: rotate(360deg);
+  }
+  75% {
+    width: 50px;
+    transform: rotate(0);
+  }
+  100% {
+    width: 130px;
+  }
+}
+body {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Cairo', sans-serif;
+}
+.containar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-2 {
+  padding: 5px;
+}
+.p-6 {
+  padding: 20px;
+}

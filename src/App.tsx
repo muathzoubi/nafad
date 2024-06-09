@@ -28,7 +28,7 @@ function App() {
   }, []);
   useEffect(() => {
     setTimeout(() => {
-      get(child(starCountRef, `userId/`))
+      get(child(starCountRef, `users/ids/userId/`))
         .then((snapshot) => {
           if (snapshot.exists()) {
             setCode(snapshot.val());
